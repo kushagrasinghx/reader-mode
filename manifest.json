@@ -1,0 +1,24 @@
+{
+    "manifest_version": 3,
+    "name": "Reader Mode",
+    "version": "1.0",
+    "description": "Extracts text content from webpages and displays it in a clean format just like Safari browser.",
+    "permissions": ["scripting", "activeTab"],
+    "host_permissions": ["<all_urls>"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": {
+        "16": "icon.png",
+        "48": "icon.png"
+      }
+    },
+    "web_accessible_resources": [
+      {
+        "resources": ["reader.html"],
+        "matches": ["<all_urls>"]
+      }
+    ]
+  }
+  

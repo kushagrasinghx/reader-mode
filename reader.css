@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+body {
+  font-family: 'Noto Serif', serif;
+  text-align: justify;
+  font-size: 1em;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  background: #fdfdfd;
+  color: #111;
+  transition: background 0.3s, color 0.3s;
+}
+
+body.dark {
+  background: #121212;
+  color: #e0e0e0;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  line-height: 1.2em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 1.25em;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-size: 1em;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#toggle-darkmode {
+  font-family: 'Noto Serif', serif;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: #eee;
+  border: 1px solid #ccc;
+  padding: 8px 14px;
+  cursor: pointer;
+  border-radius: 100px;
+  font-size: 0.8em;
+  z-index: 1000;
+  transition: background 0.3s;
+}
+
+body.dark #toggle-darkmode {
+  background: #333;
+  color: #eee;
+}
+
+.footer-credits {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 0.9em;
+}
