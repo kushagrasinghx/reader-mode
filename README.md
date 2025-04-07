@@ -42,15 +42,17 @@ Reader Mode is a clean and distraction-free Chrome Extension that extracts the m
 ## 📦 File Structure
 
 reader-mode/
-├── background.js       # Handles extension activation  
-├── contentScript.js    # Extracts readable content using Readability  
-├── readability.js      # Local version of Mozilla Readability  
-├── reader.html         # Clean layout for reading  
-├── reader.js           # Renders title and content to page  
-├── reader.css          # Typography, dark mode, and layout styling  
-├── manifest.json       # Chrome Extension configuration  
-├── icon.png            # Extension icon  
-└── README.md           # You're here :)
+| File / Folder       | Description                                           |
+|---------------------|-------------------------------------------------------|
+| `background.js`     | Handles extension activation                          |
+| `contentScript.js`  | Extracts readable content using Readability           |
+| `readability.js`    | Local version of Mozilla Readability                  |
+| `reader.html`       | Clean layout for reading                              |
+| `reader.js`         | Renders title and content to page                     |
+| `reader.css`        | Typography, dark mode, and layout styling             |
+| `manifest.json`     | Chrome Extension configuration                        |
+| `icon.png`          | Extension icon                                        |
+| `README.md`         | You're here :)                                        |
 
 ---
 
