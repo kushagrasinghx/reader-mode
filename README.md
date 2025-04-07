@@ -10,7 +10,7 @@ Reader Mode is a clean and distraction-free Chrome Extension that extracts the m
 
 ## 📸 Preview
 
-![Reader Mode Preview](preview.png) *(add your own screenshot)*
+![Reader Mode Preview](preview.png)
 
 ---
 
@@ -39,9 +39,18 @@ Reader Mode is a clean and distraction-free Chrome Extension that extracts the m
 - Buttons
 - Images
 
-## 📁 File Structure
+## 📦 File Structure
 
-reader-mode/ │ ├── background.js # Handles extension activation ├── contentScript.js # Extracts readable content using Readability ├── readability.js # Local version of Mozilla Readability ├── reader.html # Clean layout for reading ├── reader.js # Renders title and content to page ├── reader.css # Typography, dark mode, and layout styling ├── manifest.json # Chrome Extension configuration ├── icon.png # Extension icon └── README.md # You're here :)
+reader-mode/
+├── background.js       # Handles extension activation  
+├── contentScript.js    # Extracts readable content using Readability  
+├── readability.js      # Local version of Mozilla Readability  
+├── reader.html         # Clean layout for reading  
+├── reader.js           # Renders title and content to page  
+├── reader.css          # Typography, dark mode, and layout styling  
+├── manifest.json       # Chrome Extension configuration  
+├── icon.png            # Extension icon  
+└── README.md           # You're here :)
 
 ---
 
